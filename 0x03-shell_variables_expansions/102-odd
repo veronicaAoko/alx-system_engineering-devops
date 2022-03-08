@@ -1,0 +1,5 @@
+#!/bin/bash
+cat - |grep " The eggs of the brood need to be an odd number"|while read l_line
+do
+   echo $l_line
+done
